@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGLANTO - Jewellery</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <script src="https://kit.fontawesome.com/1a578d4918.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div id="cont1">
+                <li id="li1" style="margin-right: 15px;">Home</li>
+                <li id="li2" style="margin-right: 15px;">Product's</li>
+                <li id="li3" style="margin-right: 15px;">Discover</li>
+                <li id="li4">Blogs</li>
+        </div>
+        <div id="cont2">
+            <span id="logo">Eglanto</span>
+        </div>
+        <div id="cont3">
+            <span id="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span id="like"><i class="fa-regular fa-heart"></i></span>
+            <span id="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+            <span id="bars" onclick="DrawerOpen()"><i class="fa-solid fa-bars"></i></span>
+        </div>
+    </nav>
+    <div id="cont4"></div>
+    <div id="drawer">
+        <div id="hide-menu">
+            <span onclick="DrawerClose()" id="hidemenu"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <a href="">Home</a>
+        <a href="">Product's</a>
+        <a href="">Discover</a>
+        <a href="">Blogs</a>
+    </div>
+
+
+    <script src="./assests/js/index.js"></script>
+</body>
+
+</html>
