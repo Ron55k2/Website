@@ -190,6 +190,7 @@ nav #cont3 span{
     padding: 0px 64px;
     width: 100vw;
     max-width: 1200px;
+    gap: 30px;
 }
 #cont5-1{
     height: 450px;
@@ -247,4 +248,42 @@ nav #cont3 span{
     width: 60%;
     height: 20%;
     background-color: white;
+}
+@media(max-width: 1120px){
+    #cont5-2{
+        width: 50%;
+    }
+}
+@media(max-width: 960px){
+    #cont5-2{
+        margin-top: -30px;
+    }
+}
+@media(max-width: 750px){
+    #cont5-2{
+        display: none;
+    }
+    #cont5-1{
+        width: 80%;
+    }
+}
+@media(max-width: 520px){
+    #cont5-1 span{
+        font-size: 40px;
+    }
+}
+@media(max-width: 460px){
+    #cont5-1 span{
+        font-size: 32px;
+    }
+    #cont5-1 p{
+        font-size: medium;
+    }
+    #img{
+        height: 30px;
+        width: 30px;
+    }
+    #cont5-1{
+        width: 100%;
+    }
 }
