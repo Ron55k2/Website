@@ -279,15 +279,15 @@ nav #cont3 span{
     display: flex;
 }
 #cont6img{
-    height: 15%;
-    width: 15%;
+    height: 25%;
+    width: 20%;
 }
 #cont6-content1{
     width: 80%;
     height: 20%;
     background-color: white;
     padding: 16px 16px;
-    margin-top: 10px;
+    margin-top: 35px;
     display: flex; 
 }
 .content{
@@ -328,4 +328,23 @@ nav #cont3 span{
     margin-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: darkslategray;
+}
+#cont7{
+    margin-top: 20px;
+    padding: 72px 96px;  
+}
+#cont7 h1{
+    text-align: center;
+    color: darkslategray;
+    font-size: xxx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#cont7-1{
+    height: 350px;
+    width: 20%;
+    background-color: black;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    background-color: lavender;
+    text-align: center;
 }
