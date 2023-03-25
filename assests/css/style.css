@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 32px 56px;
-    background-color: white;
+    /* background-color: white; */
 }
 nav #cont1{
     display: flex;
@@ -554,4 +554,64 @@ nav #cont3 span{
     width: 100%;
     background-color: whitesmoke;
     display: flex;
+    /* padding: 0px 112px; */
+    flex-direction: row;
+    /* color: darkslategray; */
+    padding-bottom: 112px;
+}
+#cont10-content{
+    padding-top: 48px;
+    padding-left: 112px;
+    width: 60%;
+}
+#cont10-content h2{
+    line-height: 50px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cont10-content h3{
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cont10-content h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+}
+#cont10-image{
+    width: 20%;
+    height: 20%;
+    padding-right: 112px;
+    padding-top: 48px;
+}
+#cont11{
+    background-color: darkslategray;
+    width: 100%;
+    margin-top: 112px;
+    /* padding: 48px 96px; */
+    padding-top: 48px;
+}
+#cont11-images{
+    display: flex;
+    gap: 80px;
+    margin-top: -170px;
+    padding: 40px 40px;
+}
+#lookpage{
+    /* height: 17%;s */
+    width: 20%;
+    background-color: lavender;
+    font-size: 36px;
+    text-align: center;
+}
+#topicon{
+    margin-top: 40px;
+}
+#bottomicon{
+    margin-top: 40px;
+}
+#cont11-content{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 40px;
 }
