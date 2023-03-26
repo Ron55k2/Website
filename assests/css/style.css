@@ -607,11 +607,60 @@ nav #cont3 span{
     margin-top: 40px;
 }
 #bottomicon{
-    margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 #cont11-content{
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 96px 40px;
+}
+#left h2{
+    line-height: 60px;
+}
+#left h3{
+    line-height: 40px;
+    color: gainsboro;
+}
+#cont11-icons{
+    line-height: 40px;
+    color: gainsboro;
+}
+#mid1 h2{
+    line-height: 60px;
+}
+#mid1 h3{
+    line-height: 40px;
+    color: gainsboro;
+}
+#mid2 h2{
+    line-height: 60px;
+}
+#mid2 h3{
+    line-height: 40px;
+    color: gainsboro
+}
+#right h2{
+    line-height: 60px;
+}
+#right h3{
+    line-height: 40px;
+    color: gainsboro
+}
+#inputbox{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 60%;
+    padding: 14px;
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: none;
+}
+#arrow{
+    background-color: darkslategray;
+    border: 5px solid gainsboro;
+    font-size: 20px;
+    padding: 14px;
 }
