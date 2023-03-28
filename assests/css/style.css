@@ -184,6 +184,13 @@ nav #cont3 span{
     visibility: visible;
     transform: scaleX(1);
 }
+#user{
+    color: gray;
+    cursor: pointer;
+}
+#user:hover{
+    color: darkslategray;
+}
 #cont5{
     display: flex;
     flex-direction: row;
