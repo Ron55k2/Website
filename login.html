@@ -24,7 +24,7 @@
                         <span>Email or mobile number</span>
                     </div>
                     <div id="input-box">
-                        <input id="pass" type="text" required="required">
+                        <input id="pass" type="password" required="required">
                         <span>Password</span>
                     </div>
                     <button id="login" onclick="login()">Login</button>
@@ -37,8 +37,14 @@
         </div>
     </div>
 
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 
-    <script src="./assests/js/login.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    // ...
+
+    <script defer src="./assests/js/firebase.js"></script>
 </body>
 
 </html>
