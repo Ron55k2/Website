@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#main-div {
+    display: flex;
+}
+
+#div1 {
+    width: 50%;
+    height: 100vh;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#div1-1 {
+    width: 80%;
+    height: 70vh;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+#heading {
+    font-size: 48px;
+    color: darkslategray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    text-align: center;
+    padding: 0px 48px;
+    padding-top: 56px;
+}
+
+#cont {
+    padding: 32px 56px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 32px;
+}
+
+#div2 {
+    width: 50%;
+    /* height: 100vh; */
+    background-color: whitesmoke;
+    padding: 64px 48px;
+}
+
+#div2-1 {
+    display: flex;
+    gap: 10px;
+}
+
+#div2-1 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#div2 span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#div2-2 {
+    margin-top: 40px;
+    font-size: large;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+
+#div2-3 {
+    display: flex;
+    gap: 10px;
+}
+
+#signup {
+    margin-top: 30px;
+    height: 40px;
+    width: 70%;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #b0cdff;
+    border: 1px solid lightsteelblue;
+    border-radius: 10px;
+}
+
+#signup:hover {
+    background-color: #ebebfb;
+}
