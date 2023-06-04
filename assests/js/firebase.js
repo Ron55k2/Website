@@ -10,7 +10,21 @@ const firebaseConfig = {
 
 const app = firebase.initializeApp(firebaseConfig);
 
-async function login(){
+// async function login(){
+//     firebase.auth().createUserWithEmailAndPassword(document.getElementById("email").value, document.getElementById("pass").value)
+//     .then((userCredential) => {
+//         // Signed in
+//         const user = userCredential.user;
+//         console.log(user);
+//     })
+//     .catch((error) => {
+//         const errorCode = error.code;
+//         const errorMessage = error.message;
+//         console.log(errorMessage);
+//     });
+// }
+
+async function signup(){
     firebase.auth().createUserWithEmailAndPassword(document.getElementById("email").value, document.getElementById("pass").value)
     .then((userCredential) => {
         // Signed in
