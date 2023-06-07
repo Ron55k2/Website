@@ -1,149 +1,153 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     text-decoration: none;
     list-style: none;
 }
-#main-cont{
-    width: 100%;
-    height: 100vh;
-    background-color: whitesmoke;
+
+#main-cont {
     display: flex;
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: red; */
 }
-#content1{
+
+#cont1 {
     width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#content2{
-    width: 60%;
     background-color: darkslategray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 24px 24px;
 }
-#content2-1{
-    height: 60%;
-    width: 60%;
-    background-color: whitesmoke;
-    border-radius: 30px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-}
-#content2-1-1{
+
+#cont1-1{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 70%;
-    padding: 26px 0px;
+    gap: 10px;
 }
-#content2-1-1 h1{
-    font-size: 48px;
-    color: darkslategray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* margin-top: -40px; */
-}
-/* #content2-1-1 h2{
-    font-size: 36px;
-    color: darkslategray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 20px    ;
-} */
-#input-box{
-    position: relative;
-    width: 250px;
-    margin-top: 20px;
-}
-#input-box input{
-    width: 90%;
-    padding: 10px;
-    border: 2px solid gainsboro;
-    background: none;
-    border-radius: 5px;
-    outline: none;
-    color: darkslategray;
-    font-size: 1em;
-}
-#input-box span{
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 1em;
-    color: darkslategray;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-#input-box input:valid ~ span,
-#input-box input:focus ~ span
-{
-    color: darkslategray;
-    transform: translateX(10px) translateY(-7px);
-    font-size: 0.65em;
-    padding: 0px 4px;
-    background: whitesmoke;
-    letter-spacing: 0.2em;
-}
-#input-box input:valid,
-#input-box input:focus
-{
-    border: 2px solid darkslategray;
-}
-#login{
-    margin-top: 20px;
-    width: 140px;
-    height: 40px;
-    font-size: large;
-    border-radius: 30px;
-    border: 1px solid darkslategray;
-    cursor: pointer;
-    background-color: whitesmoke;
-    color: darkslategray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#login:hover{
-    background-color: darkslategray;
-    color: white;
-}
-#content2-1-2{
-    margin-top: 10px;
+
+#top {
     display: flex;
     justify-content: space-between;
-    padding: 0px 70px;
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    cursor: pointer;
 }
-#content2-1-2 a{
-    color: blue;
+
+#top span1 {
+    font-size: xx-large;
+    color: whitesmoke;
 }
-#content2-1-2 a:hover{
-    text-decoration: blueviolet underline;
-    color: blueviolet;
+
+#top span2 {
+    font-size: large;
+    color: whitesmoke;
 }
-@media(max-width: 860px){
-    #content1{
-        display: none;
-    }
-    #content2{
-        width: 100%;
-    }
+
+#top span2:hover {
+    text-decoration: underline 1px;
+    color: cadetblue;
 }
-@media(max-width: 510px){
-    #content2-1-1 h1{
-        font-size: 32px;
-    }
-    #input-box{
-        margin-left: 20px\;
-    }
-    #input-box input{
-        width: 70%;
-    }
-    #input-box span{
-        font-size: 0.8em;
-    }
+
+#cont1-1{
+    padding: 56px 48px;
+}
+
+#span1{
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+#span2{
+    font-size: medium;
+    color: gainsboro;
+}
+
+#span2 a{
+    color: cadetblue;
+}
+
+#span2 a:hover{
+    text-decoration: underline 1px;
+}
+
+.inputbox input{
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: darkslategray;
+    border-bottom: 2px solid cadetblue;
+    font-size: medium;
+    color: whitesmoke;
+    width: 300px;
+}
+
+#span3{
+    padding: 10px 0px;
+    font-size: medium;
+}
+
+#span3 a{
+    color: cadetblue;
+}
+
+#span3 a:hover{
+    text-decoration: underline;
+}
+
+#signin-btn{
+    height:  45px;
+    width: 300px;
+    cursor: pointer;
+    color: darkslategray;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+}
+
+#signin-btn:hover{
+    background-color: rgb(222, 216, 216);
+}
+
+#google{
+    height:  45px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkslategray;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+}
+
+#google:hover{
+    background-color: rgb(222, 216, 216);
+}
+
+#apple{
+    height:  45px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkslategray;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+}
+
+#apple:hover{
+    background-color: rgb(222, 216, 216);
+}
+
+#cont2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
 }
